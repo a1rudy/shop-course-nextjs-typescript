@@ -1,0 +1,8 @@
+@mixin font($size, $height: 24px, $weight: 400) {
+	line-height: $height;
+	font: {
+		family: "Noto Sans KR", sans-serif;
+		size: $size;
+		weight: $weight;
+	}
+}

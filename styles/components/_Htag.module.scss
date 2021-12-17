@@ -1,0 +1,17 @@
+.h1 {
+	margin: 0;
+
+	@include font(26px, 35px, 500);
+}
+
+.h2 {
+	margin: 0;
+
+	@include font(22px, 30px, 500);
+}
+
+.h3 {
+	margin: 0;
+
+	@include font(20px, 27px, 600);
+}

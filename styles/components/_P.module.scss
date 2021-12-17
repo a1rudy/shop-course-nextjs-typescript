@@ -1,0 +1,15 @@
+.p {
+	margin: 0;
+}
+
+.p_size_s {
+	@include font(14px);
+}
+
+.p_size_m {
+	@include font(16px);
+}
+
+.p_size_l {
+	@include font(18px, 29px);
+}
