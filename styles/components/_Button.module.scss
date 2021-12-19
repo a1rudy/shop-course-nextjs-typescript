@@ -12,37 +12,37 @@
 	border-radius: 5px;
 
 	font-size: 14px;
-}
 
-.btn_type_primary {
-	color: $white;
-	background-color: $primary;
-}
+	&_type_primary {
+		color: $white;
+		background-color: $primary;
+	}
 
-.btn_type_primary:hover {
-	background-color: $primary-hover;
-}
+	&_type_primary:hover {
+		background-color: $primary-hover;
+	}
 
-.btn_type_ghost {
-	color: $black;
-	border: 1px solid $gray-light;
-	background: none;
-}
+	&_type_ghost {
+		color: $black;
+		border: 1px solid $gray-light;
+		background: none;
+	}
 
-.btn_type_ghost:hover {
-	color: $white;
-	background-color: $primary;
-}
+	&_type_ghost:hover {
+		color: $white;
+		background-color: $primary;
+	}
 
-.btn__arrow {
-	display: inline-block;
+	&__arrow {
+		display: inline-block;
 
-	margin-left: 10px;
-}
+		margin-left: 10px;
+	}
 
-.btn__arrow_down {
-	transition: all 0.2s;
-	transform: rotate(90deg);
+	&__arrow_down {
+		transition: all 0.2s;
+		transform: rotate(90deg);
+	}
 }
 
 .btn__primary svg,

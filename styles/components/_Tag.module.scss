@@ -5,47 +5,47 @@
 	margin-right: 5px;
 
 	border-radius: 20px;
-}
 
-.tag_size_s {
-	padding: 5px 10px;
+	&_size_s {
+		padding: 5px 10px;
 
-	@include font(12px, 12px);
-}
+		@include font(12px, 12px);
+	}
 
-.tag_size_m {
-	padding: 5px 10px;
+	&_size_m {
+		padding: 5px 10px;
 
-	@include font(14px, 14px);
-}
+		@include font(14px, 14px);
+	}
 
-.tag_color_ghost {
-	border: 1px solid $gray-light;
-}
+	&_color_ghost {
+		border: 1px solid $gray-light;
+	}
 
-.tag_color_red {
-	color: $white;
-	background: #DE0000;
+	&_color_red {
+		color: $white;
+		background: #DE0000;
 
-	font-weight: bold;
-}
+		font-weight: bold;
+	}
 
-.tag_color_grey {
-	color: $white;
-	background: #B3C0D9;
+	&_color_grey {
+		color: $white;
+		background: #B3C0D9;
 
-	font-weight: bold;
-}
+		font-weight: bold;
+	}
 
-.tag_color_green {
-	color: $green;
-	background: $green-light;
+	&_color_green {
+		color: $green;
+		background: $green-light;
 
-	font-weight: bold;
-}
+		font-weight: bold;
+	}
 
-.tag_color_primary {
-	color: $primary;
-	border: 1px solid $primary;
-	background: none;
+	&_color_primary {
+		color: $primary;
+		border: 1px solid $primary;
+		background: none;
+	}
 }
